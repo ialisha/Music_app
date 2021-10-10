@@ -1,0 +1,177 @@
+body{
+	background-color: #020f25;
+	  color:white;
+font-style: Monospace;
+}
+.header{
+ display: flex;
+  flex-direction: row;
+  color:white;
+  font-family: sans-serif
+}
+.header img{
+	height:5%;
+	width:5%
+}
+.header p{
+	padding-left: 60px;
+}
+#search{
+padding-left: 400px;
+padding-top: 30px;
+
+}
+content{
+	display: inline-block;
+}
+.input-field{
+	background-color: #2a3c74;
+}
+.new-release{
+ display: flex;
+	 flex-direction: row;
+	 height: 10rem;
+	 width: 10rem;
+}
+.new-release img
+{
+	width: 170px;
+	transition: transform 1s;
+}
+.new-release img:hover
+{
+	transform:scale(2);
+}
+.latest-release{
+	display: flex;
+	flex-direction: row;
+	font-style: Monospace;
+}
+.latest-release img{
+	height: 5rem;
+	width: 5rem;
+}
+.three-dots:after {
+  cursor: pointer;
+  color: #FCC;
+  content: '\2812';
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown {
+  position: absolute;
+ background-color: white;
+  opacity: 0;
+  z-index: -1;
+  max-height: 0;
+  transition: opacity 0.1s, z-index 0.1s, max-height: 5s;
+}
+
+
+.dropdown-container:hover .dropdown {
+  opacity: 1;
+  z-index: 100;
+  max-height: 100vh;
+  transition: opacity 0.2s, z-index 0.2s, max-height: 0.2s;
+}
+.popular-artist 
+{
+	display:flex;
+
+}
+.popular-artist img
+{
+	height: 10vh;
+	width: 5vw;
+border-radius: 50%;
+}
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.no-list-style li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-list {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+.figcaption{
+  height: 1.2em;
+  width: 100%;
+  margin-top: -10vh;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  font-family: 'Open Sans', sans;
+  font-weight: 700;
+  font-size: 20px;
+}
+.staions{
+	background-color: #2a3c74;
+}
+.stations img{
+	height:5rem;
+	width:5rem;
+	border-radius: 50%;
+}
+.exclude{
+	border-radius: 1%;
+}
+.genre img{
+height:5rem;
+	width:14rem;
+}
+	
+.latest-english img{
+	
+	height: 5rem;
+	width: 5rem;
+}
+aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3%;
+    width: 25%;
+    font-size: 10px;
+    padding-top: 100px;
+}
+
+.down-arrow:after {
+  cursor: pointer;
+  color: #FCC;
+   content: "▼";
+  font-size: 20px;
+  padding: 0 5px;
+}
+#Queue
+{
+	display: inline;
+	color:#2ab4a4;
+}
+aside img{
+	height: 25px;
+	width: 25px;
+}
+#header{
+    display: inline;
+    }
